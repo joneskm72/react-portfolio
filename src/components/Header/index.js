@@ -8,7 +8,7 @@ class Header extends Component {
   render() {
     return (
       <Navbar bg="dark" variant="dark" expand="lg">
-        <Navbar.Brand href="/home">Kasey Jones</Navbar.Brand>
+        <Navbar.Brand href="/">Kasey Jones</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="nav-links">
