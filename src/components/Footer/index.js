@@ -1,6 +1,5 @@
 import React from "react";
 import "./style.css";
-import '@fortawesome/fontawesome-svg-core';
 
 function Footer() {
   return (
@@ -20,7 +19,7 @@ function Footer() {
                     <a href= "https://www.linkedin.com/in/kasey-m-jones">&nbsp;LinkedIn</a>
                 </div>
                 <div class="col-6 col-lg-2">
-                    <i class="fab fa-github"></i>
+                    <fab icon="github" />
                     <a href="https://github.com/joneskm72">&nbsp;GitHub</a>
                 </div>
                 <div class="col-6 col-lg-2">
