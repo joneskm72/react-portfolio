@@ -4,7 +4,6 @@
 
 * [General Info](#general-info)
 * [Technologies](#technologies)
-* [How to Use](#how-to-use)
 * [Application Demo](#application-demo)
 * [Application Link](#application-link)
 * [License](#license)
@@ -12,22 +11,20 @@
 
 ## General Info
 
+A personal portfolio using React.
 
 ## Technologies
 
-* HTML
-* CSS
 * JavaScript
 * React
-
-## How to Use
-
+* CSS
 
 ## Application Demo
 
 
 ## Application Link
 
+[React Portfolio](https://joneskm72.github.io/react-portfolio/)
 
 ## License
 
