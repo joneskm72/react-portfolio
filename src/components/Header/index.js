@@ -11,9 +11,9 @@ class Header extends Component {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="nav-links">
-            <Nav.Link href="/about">About</Nav.Link>
-            <Nav.Link href="/portfolio">Portfolio</Nav.Link>
-            <Nav.Link href="/contact">Contact</Nav.Link>
+            <Nav.Link href="/home">About</Nav.Link>
+            <Nav.Link href="/react-portfolio">Portfolio</Nav.Link>
+            <Nav.Link href="/contact-me">Contact</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Navbar>
