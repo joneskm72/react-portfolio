@@ -12,7 +12,7 @@ class Header extends Component {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="nav-links">
             <Nav.Link href="/home">About</Nav.Link>
-            <Nav.Link href="/react-portfolio">Portfolio</Nav.Link>
+            <Nav.Link href="/my-portfolio">Portfolio</Nav.Link>
             <Nav.Link href="/contact-me">Contact</Nav.Link>
           </Nav>
         </Navbar.Collapse>

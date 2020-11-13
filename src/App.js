@@ -19,7 +19,7 @@ function App() {
         <Wrapper>
           <Route exact path="/home" component={About} />
           <Route exact path="/home" component={About} />
-          <Route exact path="/react-portfolio" component={Portfolio} />
+          <Route exact path="/my-portfolio" component={Portfolio} />
           <Route exact path="/contact-me" component={Contact} />
         </Wrapper>
         <Footer />
