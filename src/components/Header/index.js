@@ -10,7 +10,7 @@ class Header extends Component {
         <Navbar.Brand href="/">Kasey Jones</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="mr-auto">
+          <Nav className="nav-links">
             <Nav.Link href="/about">About</Nav.Link>
             <Nav.Link href="/portfolio">Portfolio</Nav.Link>
             <Nav.Link href="/contact">Contact</Nav.Link>
