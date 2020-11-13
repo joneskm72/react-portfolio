@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Contact from '../../pages/Contact';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
@@ -16,8 +17,8 @@ class Header extends Component {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mr-auto">
             <Nav.Link href="#home">About</Nav.Link>
-            <Nav.Link href="#portfolio">Portfolio</Nav.Link>
-            <Nav.Link href="#contact">Contact</Nav.Link>
+            <Nav.Link href="../../pages/Portfolio">Portfolio</Nav.Link>
+            <Nav.Link href="../../pages/Contact">Contact</Nav.Link>
             <NavDropdown title="Dropdown" id="basic-nav-dropdown">
               <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
