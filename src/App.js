@@ -7,7 +7,7 @@ import Wrapper from './components/Wrapper';
 import Project from './components/Project';
 import Contact from './pages/Contact';
 import Portfolio from './pages/Portfolio';
-import Home from './pages/Home';
+import About from './pages/About';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 
@@ -17,8 +17,8 @@ function App() {
       <Header />
       <Router>
         <Wrapper>
-          <Route exact path="/" component={Home} />
-          <Route exact path="/home" component={Home} />
+          <Route exact path="/" component={About} />
+          <Route exact path="/about" component={About} />
           <Route exact path="/portfolio" component={Portfolio} />
           <Route exact path="/contact" component={Contact} />
         </Wrapper>
