@@ -4,7 +4,6 @@ import './App.css';
 import Footer from './components/Footer';
 import Header from './components/Header';
 import Wrapper from './components/Wrapper';
-import Project from './components/Project';
 import Contact from './pages/Contact';
 import Portfolio from './pages/Portfolio';
 import About from './pages/About';
