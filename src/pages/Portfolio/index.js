@@ -12,7 +12,7 @@ import Button from 'react-bootstrap/Button';
 class Portfolio extends Component {
   render() {
     return (
-      <div>
+      <div style={{display: 'flex', flexDirection: 'row'}}>
         <Card className='portfolioCard' style={{ width: '25rem', marginLeft: '20px', marginRight: '20px', marginTop: '20px', marginBottom: '20px' }}>
           <Card.Img variant="top" src={DayPlanner} href='https://joneskm72.github.io/day-scheduler-hw5/' />
           <Card.Body>
