@@ -1,0 +1,11 @@
+.portfolioCard {
+  padding-top: 15px !important;
+  padding-bottom: 15px !important;
+}
+
+.btn-dark {
+  margin-left: auto !important;
+  margin-right: auto !important;
+  text-align: center !important;
+  display: flex;
+}
