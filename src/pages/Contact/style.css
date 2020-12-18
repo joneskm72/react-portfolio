@@ -1,0 +1,13 @@
+.formRow {
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+.formGroup {
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+.formButton {
+    border-radius: 50% !important;
+}

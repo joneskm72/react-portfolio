@@ -8,33 +8,39 @@ class Contact extends Component {
   render() {
     return (
       <Form>
-        <Form.Row>
-          <Form.Group as={Col} controlId="formGridFirst">
+        <h1>Contact</h1>
+        <Form.Row className='formRow'>
+          <Form.Group className='formGroup col-md-3' as={Col} controlId="formGridFirst">
             <Form.Label>First Name</Form.Label>
             <Form.Control type="first" placeholder="First Name" />
           </Form.Group>
 
-          <Form.Group as={Col} controlId="formGridLast">
+          <Form.Group className='formGroup col-md-3' as={Col} controlId="formGridLast">
             <Form.Label>Last Name</Form.Label>
             <Form.Control type="last" placeholder="Last Name" />
           </Form.Group>
         </Form.Row>
 
         <Form.Row>
-          <Form.Group controlId="formGridEmail">
+          <Form.Group className='formGroup col-md-3' controlId="formGridEmail">
             <Form.Label>Email Address</Form.Label>
             <Form.Control placeholder="Email" />
+          </Form.Group>
+
+          <Form.Group className='formGroup col-md-3' controlId="formGridCompany">
+            <Form.Label>Company</Form.Label>
+            <Form.Control placeholder="Company" />
           </Form.Group>
         </Form.Row>
 
         <Form.Row>
-          <Form.Group controlId="formGridMessage">
+          <Form.Group className='formGroup col-md-6' controlId="formGridMessage">
             <Form.Label>Message</Form.Label>
             <Form.Control placeholder="Message" />
           </Form.Group>
         </Form.Row>
 
-        <Button variant="primary" type="submit">
+        <Button className='formButton' variant="primary" type="submit">
           Submit
         </Button>
       </Form>
