@@ -37,7 +37,7 @@ class Portfolio extends Component {
               <Card.Body>
                 <Card.Title style={{ textAlign: 'center' }}>Dream Dog</Card.Title>
                 <Card.Text style={{ textAlign: 'center' }}>
-                  A simple calendar application that allows the user to save events for each hour of the day.
+                An application that allows users to search for and adopt dogs.
                 </Card.Text>
                 <Button className='btn btn-dark' onClick={() => newTab('https://vkalaparthy.github.io/2020-Project1/')}>View</Button>
               </Card.Body>
@@ -61,7 +61,7 @@ class Portfolio extends Component {
               <Card.Body>
                 <Card.Title style={{ textAlign: 'center' }}>Weather Dashboard</Card.Title>
                 <Card.Text style={{ textAlign: 'center' }}>
-                  A simple calendar application that allows the user to save events for each hour of the day.
+                A site that allows users to find the current and 5-day weather forecast in their city
                 </Card.Text>
                 <Button className='btn btn-dark' onClick={() => newTab('https://joneskm72.github.io/server-side-apis-hw6/')}>View</Button>
               </Card.Body>
@@ -73,7 +73,7 @@ class Portfolio extends Component {
               <Card.Body>
                 <Card.Title style={{ textAlign: 'center' }}>EventSafe</Card.Title>
                 <Card.Text style={{ textAlign: 'center' }}>
-                  A simple calendar application that allows the user to save events for each hour of the day.
+                  An application that allows users to see local events that follow COVID-19 precautions.
                 </Card.Text>
                 <Button className='btn btn-dark' onClick={() => newTab('https://project-2-team-3.herokuapp.com/')}>View</Button>
               </Card.Body>
