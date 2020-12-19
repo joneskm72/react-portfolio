@@ -9,5 +9,14 @@
 }
 
 .formButton {
-    border-radius: 50% !important;
+    border-radius: 25px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    text-align: center !important;
+    display: flex;
+}
+
+.formHeader {
+ text-align: center;
+ margin-top: 10px;
 }
