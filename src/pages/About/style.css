@@ -1,0 +1,38 @@
+.aboutBackground {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.aboutHeader {
+    text-align: center;
+    color: white;
+    margin-top: 40px;
+}
+
+.aboutCol1 {
+    margin: auto;
+}
+
+.profileImage {
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+}
+
+.aboutCol2 {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.colP {
+    text-align: center;
+    font-size: 1.5rem;
+    color: white;
+}
+
+div {
+    background-image: '../../Assets/Images/keyboard.png';
+}
