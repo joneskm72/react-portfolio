@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Profile from '../../Assets/Images/picture.png';
-import Keyboard from '../../Assets/Images/keyboard.png';
+import Keyboard2 from '../../Assets/Images/keyboard2.png';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
@@ -11,7 +11,7 @@ import './style.css';
 class About extends Component {
   render() {
     return (
-      <div className='aboutBackground' style={{backgroundImage: `url(${Keyboard})`}}>
+      <div className='aboutBackground' style={{backgroundImage: `url(${Keyboard2})`}}>
         <h1 className='aboutHeader'>About Me</h1>
         <Container>
           <Row>

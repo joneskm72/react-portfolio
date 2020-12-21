@@ -1,3 +1,10 @@
+.contactBackground {
+    background-repeat: no-repeat;
+    align-self: flex-end;
+    background-size: cover;
+    height: 800px;
+}
+
 .formRow {
     margin-left: auto !important;
     margin-right: auto !important;
