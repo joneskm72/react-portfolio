@@ -16,8 +16,12 @@ A personal portfolio using React.
 ## Technologies
 
 * JavaScript
+* HTML5
 * React
 * CSS
+* Node JS
+* React-Bootstrap
+* GitHub Pages
 
 ## Application Demo
 
