@@ -6,6 +6,11 @@
   margin-bottom: 60px;
 }
 
+.portfolioButton {
+  padding-top: 2px;
+  padding-bottom: 1px;
+}
+
 .cardStyle {
   width: 23rem !important;
   margin-left: auto !important;
