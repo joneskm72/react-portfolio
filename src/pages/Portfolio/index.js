@@ -28,6 +28,7 @@ class Portfolio extends Component {
                   A simple calendar application that allows the user to save events for each hour of the day.
                 </Card.Text>
                 <Button className='btn btn-dark' onClick={() => newTab('https://joneskm72.github.io/day-scheduler-hw5/')}>View</Button>
+                <Button className='btn btn-dark' onClick={() => newTab('https://github.com/joneskm72/day-scheduler-hw5')}>GitHub</Button>
               </Card.Body>
             </Card>
           </div>
