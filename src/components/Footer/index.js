@@ -6,6 +6,7 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { fab } from '@fortawesome/free-brands-svg-icons';
+import Resume from '../../Assets/pdf/kasey-jones-resume.pdf';
 
 library.add(fab)
 
@@ -33,7 +34,7 @@ class Footer extends Component {
                   </Col>
                   <Col xs={6} lg={2}>
                       <i class="fa fa-file-text"></i>
-                      <a href="../../Assets/pdf/kasey-jones-resume.pdf" target="_blank">&nbsp;Resume</a>
+                      <a href={Resume} target="_blank" download="kasey-jones-resume.pdf">&nbsp;Resume</a>
                   </Col>
               </Row>
           </Container>
