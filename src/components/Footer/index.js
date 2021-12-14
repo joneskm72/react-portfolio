@@ -16,10 +16,6 @@ class Footer extends Component {
       <div class="footer bg-dark">
         <Container>
               <Row>
-                  <Col xs={6} lg={3}>
-                      <i class="fas fa-phone"></i>
-                      &nbsp;828-406-5140
-                  </Col>
                   <Col xs={6} lg={2}>
                       <i class="far fa-envelope"></i>
                       <a href= "mailto:jones.m.kasey@gmail.com">&nbsp;Email</a>

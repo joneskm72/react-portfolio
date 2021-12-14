@@ -21,7 +21,7 @@ class About extends Component {
           </Row>
           <Row>
             <Col className='aboutCol2' xs={12} md={12}>
-              <p className='colP'>An aspiring Test Engineer who has experience as a Client Support Representative with a proven record of maintaining client loyalty and providing the highest level of customer experience. Passionate about helping people reach their goals and achieve their fullest potential.</p>
+              <p className='colP'>A detail-oriented, results-driven manual test engineer with experience in all phases of STLC and an understanding of SDLC. Knowledgeable in creating and executing test cases and plans to support the development and release of applications in an Agile/SCRUM environment.</p>
             </Col>
           </Row>
         </Container>
