@@ -17,19 +17,19 @@ class Footer extends Component {
         <Container>
               <Row>
                   <Col xs={6} lg={3}>
-                      <i class="far fa-envelope"></i>
+                      <i className="far fa-envelope"></i>
                       <a href= "mailto:jones.m.kasey@gmail.com">&nbsp;Email</a>
                   </Col>
                   <Col xs={6} lg={3}>
-                      <i class="fab fa-linkedin"></i>
+                      <i className="fab fa-linkedin"></i>
                       <a href= "https://www.linkedin.com/in/kasey-m-jones">&nbsp;LinkedIn</a>
                   </Col>
                   <Col xs={6} lg={3}>
-                      <fab icon="github" />
+                      <i className="fab fa-github"></i>
                       <a href="https://github.com/joneskm72">&nbsp;GitHub</a>
                   </Col>
                   <Col xs={6} lg={3}>
-                      <i class="fa fa-file-text"></i>
+                      <i className="fa fa-file-text"></i>
                       <a href={Resume} target="_blank" download="kasey-jones-resume.pdf">&nbsp;Resume</a>
                   </Col>
               </Row>
