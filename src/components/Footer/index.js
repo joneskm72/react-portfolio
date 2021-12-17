@@ -30,7 +30,7 @@ class Footer extends Component {
                   </Col>
                   <Col xs={6} lg={3}>
                       <i className="fa fa-file-text"></i>
-                      <a href={Resume} target="_blank" download="kasey-jones-resume.pdf">&nbsp;Resume</a>
+                      <a href={Resume} target="_blank" download="Kasey_Jones_Resume.pdf">&nbsp;Resume</a>
                   </Col>
               </Row>
           </Container>
