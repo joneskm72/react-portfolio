@@ -6,9 +6,10 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { fab } from '@fortawesome/free-brands-svg-icons';
+import { faEnvelope, faFileDownload } from '@fortawesome/free-solid-svg-icons'
 import Resume from '../../Assets/pdf/K Jones Resume.pdf';
 
-library.add(fab)
+library.add(fab, faEnvelope, faFileDownload)
 
 class Footer extends Component {
   render() {
