@@ -17,7 +17,7 @@ class Footer extends Component {
         <Container>
               <Row>
                   <Col xs={6} lg={3}>
-                      <i class="far fa-envelope"></i>
+                      <i class="fas fa-envelope"></i>
                       <a href= "mailto:jones.m.kasey@gmail.com" target="_blank" rel="noopener noreferrer">&nbsp;Email</a>
                   </Col>
                   <Col xs={6} lg={3}>
@@ -29,7 +29,7 @@ class Footer extends Component {
                       <a href="https://github.com/joneskm72" target="_blank">&nbsp;GitHub</a>
                   </Col>
                   <Col xs={6} lg={3}>
-                      <i class="fa fa-file-text"></i>
+                      <i class="fas fa-file-download"></i>
                       <a href={Resume} target="_blank" download="K Jones Resume.pdf">&nbsp;Resume</a>
                   </Col>
               </Row>
