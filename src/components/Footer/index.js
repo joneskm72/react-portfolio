@@ -6,7 +6,7 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { fab } from '@fortawesome/free-brands-svg-icons';
-import Resume from '../../Assets/pdf/kasey-jones-resume.pdf';
+import Resume from '../../Assets/pdf/Kasey_Jones_Resume.pdf';
 
 library.add(fab)
 
@@ -17,19 +17,19 @@ class Footer extends Component {
         <Container>
               <Row>
                   <Col xs={6} lg={3}>
-                      <i className="far fa-envelope"></i>
+                      <i class="far fa-envelope"></i>
                       <a href= "mailto:jones.m.kasey@gmail.com">&nbsp;Email</a>
                   </Col>
                   <Col xs={6} lg={3}>
-                      <i className="fab fa-linkedin"></i>
+                      <i class="fab fa-linkedin"></i>
                       <a href= "https://www.linkedin.com/in/kasey-m-jones">&nbsp;LinkedIn</a>
                   </Col>
                   <Col xs={6} lg={3}>
-                      <i className="fab fa-github"></i>
+                      <i class="fab fa-github"></i>
                       <a href="https://github.com/joneskm72">&nbsp;GitHub</a>
                   </Col>
                   <Col xs={6} lg={3}>
-                      <i className="fa fa-file-text"></i>
+                      <i class="fa fa-file-text"></i>
                       <a href={Resume} target="_blank" download="Kasey_Jones_Resume.pdf">&nbsp;Resume</a>
                   </Col>
               </Row>
