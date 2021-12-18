@@ -4,6 +4,10 @@ import DayPlanner from '../../Assets/Images/day-planner.png';
 import DreamDog from '../../Assets/Images/dream-dog.png';
 import PasswordGenerator from '../../Assets/Images/password-generator.png';
 import WeatherDashboard from '../../Assets/Images/weather-dashboard.png';
+import BudgetTracker from '../../Assets/Images/budget-tracker.png';
+import EmployeeDirectory from '../../Assets/Images/employee-directory.png';
+import WorkoutTracker from '../../Assets/Images/workout-tracker.png';
+import Jamez from '../../Assets/Images/jamez.png';
 import EventSafe from '../../Assets/Images/eventsafe.png';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Card from 'react-bootstrap/Card';
@@ -21,7 +25,7 @@ class Portfolio extends Component {
         <div className="row portfolioRow">
           <div className="portfolioCard col-xl-4 col-md-6 col-sm-12">
             <Card className='cardStyle'>
-              <Card.Img className='portfolioImage' variant="top" src={WeatherDashboard} onClick={() => newTab('https://jamez.herokuapp.com/')}/>
+              <Card.Img className='portfolioImage' variant="top" src={Jamez} onClick={() => newTab('https://jamez.herokuapp.com/')}/>
               <Card.Body>
                 <Card.Title style={{ textAlign: 'center' }}>jamEZ</Card.Title>
                 <Card.Text style={{ textAlign: 'center' }}>
@@ -39,7 +43,7 @@ class Portfolio extends Component {
 
           <div className="portfolioCard col-xl-4 col-md-6 col-sm-12">
             <Card className='cardStyle'>
-              <Card.Img className='portfolioImage' variant="top" src={WeatherDashboard} onClick={() => newTab('https://workout-tracker-kasey.herokuapp.com')}/>
+              <Card.Img className='portfolioImage' variant="top" src={WorkoutTracker} onClick={() => newTab('https://workout-tracker-kasey.herokuapp.com')}/>
               <Card.Body>
                 <Card.Title style={{ textAlign: 'center' }}>Fitness Tracker</Card.Title>
                 <Card.Text style={{ textAlign: 'center' }}>
@@ -57,7 +61,7 @@ class Portfolio extends Component {
 
           <div className="portfolioCard col-xl-4 col-md-6 col-sm-12">
             <Card className='cardStyle'>
-              <Card.Img className='portfolioImage' variant="top" src={WeatherDashboard} onClick={() => newTab('https://joneskm72.github.io/employee-directory/')}/>
+              <Card.Img className='portfolioImage' variant="top" src={EmployeeDirectory} onClick={() => newTab('https://joneskm72.github.io/employee-directory/')}/>
               <Card.Body>
                 <Card.Title style={{ textAlign: 'center' }}>Employee Directory</Card.Title>
                 <Card.Text style={{ textAlign: 'center' }}>
@@ -75,7 +79,7 @@ class Portfolio extends Component {
 
           <div className="portfolioCard col-xl-4 col-md-6 col-sm-12">
             <Card className='cardStyle'>
-              <Card.Img className='portfolioImage' variant="top" src={WeatherDashboard} onClick={() => newTab('https://budget-tracker-kasey.herokuapp.com/')}/>
+              <Card.Img className='portfolioImage' variant="top" src={BudgetTracker} onClick={() => newTab('https://budget-tracker-kasey.herokuapp.com/')}/>
               <Card.Body>
                 <Card.Title style={{ textAlign: 'center' }}>Budget Tracker</Card.Title>
                 <Card.Text style={{ textAlign: 'center' }}>
