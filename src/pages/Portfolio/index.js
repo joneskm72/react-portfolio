@@ -111,14 +111,14 @@ class Portfolio extends Component {
 
           <div className="portfolioCard col-xl-4 col-md-6 col-sm-12">
             <Card className='cardStyle'>
-              <Card.Img className='portfolioImage' variant="top" src={WeatherDashboard} onClick={() => newTab('https://joneskm72.github.io/server-side-apis-hw6/')}/>
+              <Card.Img className='portfolioImage' variant="top" src={WeatherDashboard} onClick={() => newTab('https://joneskm72.github.io/weather-dashboard/')}/>
               <Card.Body>
                 <Card.Title style={{ textAlign: 'center' }}>Weather Dashboard</Card.Title>
                 <Card.Text style={{ textAlign: 'center' }}>
                 A site that allows users to find the current and 5-day weather forecast in their city
                 </Card.Text>
                 <div className='portfolioButton col-lg-12 col-md-4 col-sm-5'>
-                  <Button className='btn btn-dark' onClick={() => newTab('https://joneskm72.github.io/server-side-apis-hw6/')}>View</Button>
+                  <Button className='btn btn-dark' onClick={() => newTab('https://joneskm72.github.io/weather-dashboard/')}>View</Button>
                 </div>
                 <div className='portfolioButton col-lg-12 col-md-4 col-sm-5>'>
                   <Button className='btn btn-dark' onClick={() => newTab('https://github.com/joneskm72/weather-dashboard')}>GitHub</Button>
