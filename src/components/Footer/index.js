@@ -4,12 +4,13 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import FontAwesomeIcon from '@fortawesome/react-fontawesome';
 import { library } from '@fortawesome/fontawesome-svg-core';
-import { fas } from "@fortawesome/free-solid-svg-icons";
+import { fas, faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import { fab } from '@fortawesome/free-brands-svg-icons';
 import Resume from '../../Assets/pdf/K Jones Resume.pdf';
 
-library.add(fab, fas);
+library.add(fas, fab, faEnvelope);
 
 class Footer extends Component {
   render() {
@@ -18,7 +19,7 @@ class Footer extends Component {
         <Container>
               <Row>
                   <Col xs={6} lg={3}>
-                      <i class="fas fa-envelope"></i>
+                      <FontAwesomeIcon icon={['fas', 'fa-envelope']} />
                       <a href= "mailto:jones.m.kasey@gmail.com" target="_blank" rel="noopener noreferrer">&nbsp;Email</a>
                   </Col>
                   <Col xs={6} lg={3}>
