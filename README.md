@@ -4,7 +4,6 @@
 
 * [General Info](#general-info)
 * [Technologies](#technologies)
-* [Application Demo](#application-demo)
 * [Application Link](#application-link)
 * [License](#license)
 * [Contact](#contact)
@@ -22,9 +21,6 @@ A personal portfolio using React.
 * Node JS
 * React-Bootstrap
 * GitHub Pages
-
-## Application Demo
-
 
 ## Application Link
 
