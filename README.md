@@ -32,6 +32,6 @@ A personal portfolio using React.
 
 ## Contact
 
-* Email: jones.m.kasey@gmail.com
+Email: jones.m.kasey@gmail.com
 
-* GitHub: https://github.com/joneskm72
+GitHub: https://github.com/joneskm72
